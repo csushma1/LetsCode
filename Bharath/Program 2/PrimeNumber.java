@@ -14,7 +14,7 @@ public class Solution {
             int count = 0;
             int n = scan.nextInt();
             if(n < 2) 
-                count++;
+                count=0;
             if(n % 2 == 0 && n!=2) 
                 count++;
             for(int j=3; (j*j)<=n; j+=2){
