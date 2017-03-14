@@ -1,0 +1,9 @@
+Hey, I cannot understand you code. It takes a long time for me to understand your logic
+Like i previously said 
+1) Break it into even small function. 
+2) Make sure you comment your code.
+3) Avoid variables like RES.(result i believe)
+4) Avoid these one liners if(al.get(right)>=maxright) maxright= al.get(right);
+5) make sure for ever if condition there is a bracket. 
+// All these will help improve your coding style and make sure the next developer can understand your code.
+// And also shows you have coding experience. 
