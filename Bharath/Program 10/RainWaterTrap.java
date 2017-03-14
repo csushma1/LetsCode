@@ -24,25 +24,6 @@ public class Solution {
         return res;
     }
     
-    public static int maxleftheight(int i,int[] arr){
-        int max = 0;
-        for(int k=0;k<i-1;k++){
-            if(max<arr[k]){
-                max = arr[k];
-            }
-        }
-        return max;
-    }
-    
-    public static int maxrightheight(int i,int[] arr){
-        int max = 0;
-        for(int k=i+1;k<arr.length;k++){
-            if(max<arr[k]){
-                max = arr[k];
-            }
-        }
-        return max;
-    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
