@@ -1,0 +1,4 @@
+Hint:
+I have written only the logic function.
+I believe the problem statement is slightly confusing. You just have to iteratre and find the point from which the car can complete the circle.
+Make sure you dont have O(n square) as ur complexity. (2 for loops. Which is the obvious solution.)

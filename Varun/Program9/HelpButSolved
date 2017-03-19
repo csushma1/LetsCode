@@ -1,0 +1,7 @@
+I solved this ... But i was breaking my head as i made a mistake.
+Logic was pakka everything but didnt solve all test cases/
+Why?
+public HashMap<Character,Node> node= new HashMap<>();
+instead of the above i used
+public static HashMap<Character,Node> node= new HashMap<>();
+Can someone please explain why that static keyword made such a huge diffrence
