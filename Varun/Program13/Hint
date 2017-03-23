@@ -1,0 +1,7 @@
+Hint:
+Create a new stack
+This new stack holds the minimum values.
+When the value is being pushed, if it is a min value, it gets pushed into the new stack
+Else it wont as to remove the minimum value the values above it needs to be removed before reaching it.
+When being popped if the value is a min value then pop in our new stack.
+min function would peek the top of our new stack.
